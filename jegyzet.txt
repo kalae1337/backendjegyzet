@@ -1,0 +1,43 @@
+composer install --ignore-platform-req=php
+ne vegye figyelembe a php verziot
+
+php 8.3 verzio kell otthonra
+
+env
+
+
+php artisian key:generate
+
+service templatehez stubs lathatova tetele
+php artisan stub:publish
+
+service.stub 
+
+<?php
+
+namespace {{ namespace }}
+
+class {{ class }} {
+
+    public function __construct(){
+
+    }
+}
+
+php artisan make:command CreateServiceCommand
+
+php artisan make:service 
+
+php aritsan make:model Drink 
+
+pluszt varunk tole alapmukodesen felul (CRUD) akkor kell modelt letrehozni
+
+jobs : adatbazis mentes / idozitett muveletek  eltarolt sorrendben futnak
+
+1 az 1 kapcsolat pl: user - profil
+
+belongs to : foreign key oldal
+https://laravel.com/framework/docs/eloquent-relationships
+
+https://fakerphp.org/#create-fake-data
+
